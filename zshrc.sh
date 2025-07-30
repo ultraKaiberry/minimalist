@@ -10,9 +10,9 @@ setopt HIST_FIND_NO_DUPS
 setopt auto_cd
 
 
-# Prompt
+# Prompt, change ultraKai into whatever u want, same for cyan color 
 autoload -Uz colors && colors
-PROMPT='SnowMel %F{cyan}%~%f > '
+PROMPT='ultraKai %F{cyan}%~%f > '
 
 
 # Enable auto-completion
@@ -34,9 +34,6 @@ zstyle ':completion:*' group-name ''
 # Better globbing
 setopt extended_glob
 
-# alias bs
-alias la='ls -A'
-alias c='clear'
-alias update='pkg upgrade && pkg update'
-alias rf='rm -rf'
-alias p='cd storage/shared/projects'
+# alias bs, add whatever u want
+alias la = 'ls -A'
+
